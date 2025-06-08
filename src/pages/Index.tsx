@@ -291,7 +291,7 @@ const Index = () => {
             <p><strong className="text-foreground">Not just voicemail drops.</strong></p>
             <p><strong className="text-foreground">Not just transcripts.</strong></p>
             <p><strong className="text-foreground">Nothing that feels aggressive.</strong></p>
-            <p className="text-xl font-semibold text-orange-500"><strong>It find ways to make people feel WARM 🤗 toward your brand</strong></p>
+            <p className="text-xl font-semibold text-orange-500"><strong>Creative gestures that make people feel WARM 🤗 towards your brand</strong></p>
           </div>
         </div>
       </section>
