@@ -77,7 +77,7 @@ const Index = () => {
       <section className="relative py-24 fox-dark-gradient">
         <div className="relative max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center z-20">
           <h2 className="text-5xl md:text-6xl font-bold text-foreground mb-6 animate-fade-in">
-            Warm Cold Leads With <span className="text-orange-500">Heartwarming</span>—Ai Calls
+            Warm Cold Leads With <span className="text-orange-500">Heartwarming</span> Ai Calls
           </h2>
           <p className="text-xl text-muted-foreground mb-12 max-w-3xl mx-auto animate-fade-in">
             Most call agents actually do more harm than good to your brand.
@@ -132,7 +132,7 @@ const Index = () => {
                   <Phone className="w-8 h-8 text-white" />
                 </div>
                 <p className="text-foreground">Video Demo</p>
-                <p className="text-sm text-muted-foreground mt-2">Watch OutboundFox in action</p>
+                <p className="text-sm text-muted-foreground mt-2">Watch The Fox in action</p>
               </div>
             </div>
           </div>
@@ -179,21 +179,21 @@ const Index = () => {
               <div className="w-16 h-16 bg-orange-500/10 rounded-full flex items-center justify-center mx-auto mb-4 group-hover:bg-orange-500/20 transition-colors border border-orange-500/20">
                 <TrendingUp className="w-8 h-8 text-orange-500" />
               </div>
-              <h3 className="font-semibold text-foreground mb-2">Learn which scripts convert (and why</h3>
+              <h3 className="font-semibold text-foreground mb-2">Learn which scripts convert (and why)</h3>
             </div>
             
             <div className="text-center group hover:scale-105 transition-transform duration-200">
               <div className="w-16 h-16 bg-orange-500/10 rounded-full flex items-center justify-center mx-auto mb-4 group-hover:bg-orange-500/20 transition-colors border border-orange-500/20">
                 <Clock className="w-8 h-8 text-orange-500" />
               </div>
-              <h3 className="font-semibold text-foreground mb-2">Scale cheaply</h3>
+              <h3 className="font-semibold text-foreground mb-2">Scale cheaply without having to consistantly interview salespeople</h3>
             </div>
             
             <div className="text-center group hover:scale-105 transition-transform duration-200">
               <div className="w-16 h-16 bg-orange-500/10 rounded-full flex items-center justify-center mx-auto mb-4 group-hover:bg-orange-500/20 transition-colors border border-orange-500/20">
                 <Mail className="w-8 h-8 text-orange-500" />
               </div>
-              <h3 className="font-semibold text-foreground mb-2">Automate outreach to focus more on closing</h3>
+              <h3 className="font-semibold text-foreground mb-2">Strengthen brand value while maximizing the bottom line</h3>
             </div>
           </div>
         </div>
@@ -225,7 +225,7 @@ const Index = () => {
             <div className="flex items-start space-x-4 p-4 rounded-lg hover:bg-card transition-colors border border-border/50">
               <Mail className="w-6 h-6 text-orange-500 mt-1 flex-shrink-0" />
               <div>
-                <h3 className="font-semibold text-foreground">Better script & better targeting with time</h3>
+                <h3 className="font-semibold text-foreground">Better targeting on your niche with time</h3>
               </div>
             </div>
             
@@ -258,7 +258,7 @@ const Index = () => {
       <section className="py-20 fox-dark-gradient">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-3xl font-bold text-foreground mb-4">Test the Call. See for Yourself.</h2>
-          <p className="text-xl text-muted-foreground mb-8">Put in your number. Hear what the fox sounds like.</p>
+          <p className="text-xl text-muted-foreground mb-8">Put in your number, hear what the fox sounds like.</p>
           
           <div className="bg-card rounded-2xl shadow-xl p-8 max-w-md mx-auto border border-border">
             <div className="space-y-4">
@@ -298,7 +298,7 @@ const Index = () => {
             </div>
             <span className="font-semibold text-foreground">Outbound Fox</span>
           </div>
-          <p className="text-muted-foreground">Powered By A Team That Cares🧡.</p>
+          <p className="text-muted-foreground">Powered by a team that cares 🧡.</p>
           <p className="text-muted-foreground">&copy; 2025 Outbound Fox.</p>
         </div>
       </footer>
