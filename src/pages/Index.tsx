@@ -77,10 +77,10 @@ const Index = () => {
       <section className="relative py-24 bg-gradient-to-b from-background to-muted/20">
         <div className="relative max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center z-20">
           <h2 className="text-5xl md:text-6xl font-bold text-foreground mb-6 animate-fade-in">
-            Warm People Towards Your Business With <span className="text-orange-500">Heartwarming</span> AI Calls
+            Warm People With <span className="text-orange-500">Heartwarming</span> Cold Calls
           </h2>
           <p className="text-xl text-muted-foreground mb-12 max-w-3xl mx-auto animate-fade-in">
-            Most call agents actually do more harm than good to your brand.
+            Ai call agents actually do more harm than good, this one is different.
           </p>
 
           {/* Demo Call CTA */}
@@ -208,7 +208,7 @@ const Index = () => {
                 <Users className="w-8 h-8 text-orange-500 mr-2" />
                 <span className="text-3xl font-bold text-foreground">2,847</span>
               </div>
-              <p className="text-muted-foreground">Founders testing daily</p>
+              <p className="text-muted-foreground">Sign Ups</p>
             </div>
             
             <div className="text-center">
@@ -234,8 +234,9 @@ const Index = () => {
                 <Star key={i} className="w-6 h-6 text-orange-500 fill-current" />
               ))}
             </div>
-            <p className="text-lg text-muted-foreground italic">"Finally, an AI that doesn't sound like a robot having a breakdown"</p>
-            <p className="text-sm text-muted-foreground mt-2">- Sarah, SaaS Founder</p>
+            <p className="text-lg text-muted-foreground italic">"I am not a fan of robocalls at all but outbound calling to customers That's a wicked way to reengage them""</p>
+            <p className="text-sm text-muted-foreground mt-2">- Sarah Ashour, SmartR</p>
+            
           </div>
         </div>
       </section>
@@ -306,10 +307,10 @@ const Index = () => {
           <Accordion type="single" collapsible className="space-y-4">
             <AccordionItem value="item-1" className="bg-background border border-border rounded-lg px-6">
               <AccordionTrigger className="text-left hover:text-orange-500 transition-colors">
-                Does this actually work or is it just marketing fluff?
+                Does this actually work?
               </AccordionTrigger>
               <AccordionContent className="text-muted-foreground">
-                It actually works. That's why we let you test it for free with your own phone number. No smoke and mirrors, just give it a try above and see for yourself.
+                It does work. That's why we let you test it for free with your own phone number. No smoke and mirrors, just give it a try above and see for yourself.
               </AccordionContent>
             </AccordionItem>
 
@@ -318,7 +319,7 @@ const Index = () => {
                 How much does it cost? Are you going to bankrupt me?
               </AccordionTrigger>
               <AccordionContent className="text-muted-foreground">
-                We're still in early access, so pricing isn't finalized yet. But our goal is to make it way cheaper than hiring human SDRs while being way more effective. Think pennies per call, not dollars.
+                We're still in early access. But we already are able to cut costs down to offer lowest prices for Ai cold calls worldwide. No more than $0.1 per min. Pennies not dollars.
               </AccordionContent>
             </AccordionItem>
 
@@ -327,8 +328,7 @@ const Index = () => {
                 What if people hate getting AI calls?
               </AccordionTrigger>
               <AccordionContent className="text-muted-foreground">
-                That's exactly why we built this differently. Most AI call tools sound robotic and pushy. Ours focuses on being genuinely helpful and warm. Try the demo call - you'll see the difference immediately.
-              </AccordionContent>
+                That's exactly why we built this. Most AI call make leads colder not warmer (if not destroy them completely). Ours focuses on being genuinely human.
             </AccordionItem>
 
             <AccordionItem value="item-4" className="bg-background border border-border rounded-lg px-6">
@@ -336,7 +336,7 @@ const Index = () => {
                 Can I use my own voice or scripts?
               </AccordionTrigger>
               <AccordionContent className="text-muted-foreground">
-                Absolutely! That's the whole point. You upload 5-10 recordings of your best sales calls, and the AI learns your communication style. It's not trying to replace you - it's trying to scale you.
+                Absolutely! That's the whole point. You upload 5-10 recordings of your best sales calls, and the AI learns your communication style. It's not trying to replace you, it's trying to scale you.
               </AccordionContent>
             </AccordionItem>
 
@@ -345,7 +345,7 @@ const Index = () => {
                 How fast can I get started?
               </AccordionTrigger>
               <AccordionContent className="text-muted-foreground">
-                Most founders get their first campaigns running in under 12 minutes. Upload your leads, add a few sample calls, set your daily limits, and you're live. No complicated setup or training required.
+                Most founders get their first campaigns running in under 10 minutes. Upload your leads, add a few sample calls, set your daily limits, and you're live. No complicated setup or training required.
               </AccordionContent>
             </AccordionItem>
 
