@@ -118,15 +118,10 @@ const Index = () => {
 
       {/* How It Works - Section 2 with Video */}
       <section className="py-20 bg-background relative">
-        <div className="absolute inset-0 flex items-center justify-center">
-          <div className="w-full h-px bg-border"></div>
-        </div>
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 relative">
           <div className="text-center mb-16">
-            <h2 className="text-3xl font-bold text-foreground mb-4 bg-background px-8 inline-block relative">
-              How It Works
-              <span className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-2 h-2 bg-orange-500 rounded-full opacity-50"></span>
-            </h2>
+            <h2 className="text-3xl font-bold text-foreground mb-4">How It Works</h2>
+            <div className="w-full h-px bg-border mt-4"></div>
           </div>
           
           {/* Video Embed */}
@@ -142,29 +137,23 @@ const Index = () => {
             </div>
           </div>
           
-          <div className="space-y-8">
-            <div className="flex items-center space-x-6 p-6 rounded-xl hover:bg-card transition-colors border border-border/50">
-              <div className="w-12 h-12 fox-gradient text-white rounded-full flex items-center justify-center font-bold text-lg">1</div>
-              <div>
-                <h3 className="text-xl font-semibold text-foreground">Upload Your Leads</h3>
-                <p className="text-muted-foreground">CSV, CRM, or Zapier</p>
-              </div>
+          <div className="grid md:grid-cols-3 gap-6">
+            <div className="text-center p-4 rounded-xl hover:bg-card transition-colors border border-border/50">
+              <div className="w-12 h-12 fox-gradient text-white rounded-full flex items-center justify-center font-bold text-lg mx-auto mb-3">1</div>
+              <h3 className="text-lg font-semibold text-foreground mb-2">Upload Your Leads</h3>
+              <p className="text-muted-foreground text-sm">CSV, CRM, or Zapier</p>
             </div>
             
-            <div className="flex items-center space-x-6 p-6 rounded-xl hover:bg-card transition-colors border border-border/50">
-              <div className="w-12 h-12 fox-gradient text-white rounded-full flex items-center justify-center font-bold text-lg">2</div>
-              <div>
-                <h3 className="text-xl font-semibold text-foreground">Customize Your Prompt</h3>
-                <p className="text-muted-foreground">Control exactly what your AI says</p>
-              </div>
+            <div className="text-center p-4 rounded-xl hover:bg-card transition-colors border border-border/50">
+              <div className="w-12 h-12 fox-gradient text-white rounded-full flex items-center justify-center font-bold text-lg mx-auto mb-3">2</div>
+              <h3 className="text-lg font-semibold text-foreground mb-2">Customize Your Prompt</h3>
+              <p className="text-muted-foreground text-sm">Control exactly what your AI says</p>
             </div>
             
-            <div className="flex items-center space-x-6 p-6 rounded-xl hover:bg-card transition-colors border border-border/50">
-              <div className="w-12 h-12 fox-gradient text-white rounded-full flex items-center justify-center font-bold text-lg">3</div>
-              <div>
-                <h3 className="text-xl font-semibold text-foreground">Go Live</h3>
-                <p className="text-muted-foreground">We'll call, qualify, and follow up automatically</p>
-              </div>
+            <div className="text-center p-4 rounded-xl hover:bg-card transition-colors border border-border/50">
+              <div className="w-12 h-12 fox-gradient text-white rounded-full flex items-center justify-center font-bold text-lg mx-auto mb-3">3</div>
+              <h3 className="text-lg font-semibold text-foreground mb-2">Go Live</h3>
+              <p className="text-muted-foreground text-sm">We'll call, qualify, and follow up automatically</p>
             </div>
           </div>
         </div>
@@ -172,15 +161,10 @@ const Index = () => {
 
       {/* Features Section */}
       <section className="py-20 bg-card relative">
-        <div className="absolute inset-0 flex items-center justify-center">
-          <div className="w-full h-px bg-border"></div>
-        </div>
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 relative">
           <div className="text-center mb-16">
-            <h2 className="text-3xl font-bold text-foreground mb-4 bg-card px-8 inline-block relative">
-              SaaS teams use OutboundFox to:
-              <span className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-2 h-2 bg-orange-500 rounded-full opacity-50"></span>
-            </h2>
+            <h2 className="text-3xl font-bold text-foreground mb-4">Founders use OutboundFox to:</h2>
+            <div className="w-full h-px bg-border mt-4"></div>
           </div>
           
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
@@ -217,15 +201,10 @@ const Index = () => {
 
       {/* What You Get */}
       <section className="py-20 bg-background relative">
-        <div className="absolute inset-0 flex items-center justify-center">
-          <div className="w-full h-px bg-border"></div>
-        </div>
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 relative">
           <div className="text-center mb-16">
-            <h2 className="text-3xl font-bold text-foreground mb-4 bg-background px-8 inline-block relative">
-              What You Get
-              <span className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-2 h-2 bg-orange-500 rounded-full opacity-50"></span>
-            </h2>
+            <h2 className="text-3xl font-bold text-foreground mb-4">What You Get</h2>
+            <div className="w-full h-px bg-border mt-4"></div>
           </div>
           
           <div className="grid md:grid-cols-2 gap-8">
@@ -269,14 +248,9 @@ const Index = () => {
 
       {/* Why Different */}
       <section className="py-20 bg-card relative">
-        <div className="absolute inset-0 flex items-center justify-center">
-          <div className="w-full h-px bg-border"></div>
-        </div>
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center relative">
-          <h2 className="text-3xl font-bold text-foreground mb-8 bg-card px-8 inline-block relative">
-            Why It's Different
-            <span className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-2 h-2 bg-orange-500 rounded-full opacity-50"></span>
-          </h2>
+          <h2 className="text-3xl font-bold text-foreground mb-8">Why It's Different</h2>
+          <div className="w-full h-px bg-border mb-8"></div>
           <div className="space-y-4 text-lg text-muted-foreground">
             <p><strong className="text-foreground">Not just voicemail drops.</strong></p>
             <p><strong className="text-foreground">Not just transcripts.</strong></p>
