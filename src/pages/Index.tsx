@@ -1,9 +1,9 @@
-
 import React, { useState } from 'react';
-import { Phone, Calendar, TrendingUp, Mail, Clock, CheckCircle } from 'lucide-react';
+import { Phone, Calendar, TrendingUp, Mail, Clock, CheckCircle, Star, Users, Zap } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
 import { toast } from '@/hooks/use-toast';
+import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from '@/components/ui/accordion';
 
 const Index = () => {
   const [phone, setPhone] = useState('');
@@ -74,7 +74,7 @@ const Index = () => {
       </nav>
 
       {/* Hero Section */}
-      <section className="relative py-24 fox-dark-gradient">
+      <section className="relative py-24 bg-gradient-to-b from-background to-muted/20">
         <div className="relative max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center z-20">
           <h2 className="text-5xl md:text-6xl font-bold text-foreground mb-6 animate-fade-in">
             Warm People Towards Your Business With <span className="text-orange-500">Heartwarming</span> AI Calls
@@ -160,7 +160,7 @@ const Index = () => {
       </section>
 
       {/* Features Section */}
-      <section className="py-20 bg-card relative">
+      <section className="py-20 bg-muted/30 relative">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 relative">
           <div className="text-center mb-16">
             <h2 className="text-3xl font-bold text-foreground mb-4">Why It's Different:</h2>
@@ -183,14 +183,14 @@ const Index = () => {
             </div>
             
             <div className="text-center group hover:scale-105 transition-transform duration-200">
-              <div className="w-16 h-16 bg-orange-500/10 rounded-full flex items-center justify-center mx-auto mb-4 group-hover:bg-orange-500/20 transition-colors border border-orange-500/20">
+              <div className="w-16 h-12 rounded-full flex items-center justify-center mx-auto mb-4 group-hover:bg-orange-500/20 transition-colors border border-orange-500/20">
                 <Clock className="w-8 h-8 text-orange-500" />
               </div>
               <h3 className="font-semibold text-foreground mb-2">Scale cheaply without having to consistantly interview salespeople</h3>
             </div>
             
             <div className="text-center group hover:scale-105 transition-transform duration-200">
-              <div className="w-16 h-16 bg-orange-500/10 rounded-full flex items-center justify-center mx-auto mb-4 group-hover:bg-orange-500/20 transition-colors border border-orange-500/20">
+              <div className="w-16 h-12 rounded-full flex items-center justify-center mx-auto mb-4 group-hover:bg-orange-500/20 transition-colors border border-orange-500/20">
                 <Mail className="w-8 h-8 text-orange-500" />
               </div>
               <h3 className="font-semibold text-foreground mb-2">Strengthen brand value while maximizing the bottom line</h3>
@@ -199,8 +199,49 @@ const Index = () => {
         </div>
       </section>
 
+      {/* Fun Visual Section - Social Proof */}
+      <section className="py-16 bg-background relative overflow-hidden">
+        <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 relative">
+          <div className="grid md:grid-cols-3 gap-8 items-center">
+            <div className="text-center">
+              <div className="flex items-center justify-center mb-4">
+                <Users className="w-8 h-8 text-orange-500 mr-2" />
+                <span className="text-3xl font-bold text-foreground">2,847</span>
+              </div>
+              <p className="text-muted-foreground">Founders testing daily</p>
+            </div>
+            
+            <div className="text-center">
+              <div className="flex items-center justify-center mb-4">
+                <Star className="w-8 h-8 text-orange-500 mr-2" />
+                <span className="text-3xl font-bold text-foreground">94%</span>
+              </div>
+              <p className="text-muted-foreground">Say "this doesn't suck"</p>
+            </div>
+            
+            <div className="text-center">
+              <div className="flex items-center justify-center mb-4">
+                <Zap className="w-8 h-8 text-orange-500 mr-2" />
+                <span className="text-3xl font-bold text-foreground">12min</span>
+              </div>
+              <p className="text-muted-foreground">Average setup time</p>
+            </div>
+          </div>
+          
+          <div className="text-center mt-12">
+            <div className="flex items-center justify-center space-x-1 mb-4">
+              {[...Array(5)].map((_, i) => (
+                <Star key={i} className="w-6 h-6 text-orange-500 fill-current" />
+              ))}
+            </div>
+            <p className="text-lg text-muted-foreground italic">"Finally, an AI that doesn't sound like a robot having a breakdown"</p>
+            <p className="text-sm text-muted-foreground mt-2">- Sarah, SaaS Founder</p>
+          </div>
+        </div>
+      </section>
+
       {/* What You Get */}
-      <section className="py-20 bg-background relative">
+      <section className="py-20 bg-muted/30 relative">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 relative">
           <div className="text-center mb-16">
             <h2 className="text-3xl font-bold text-foreground mb-4">What You Get</h2>
@@ -241,7 +282,7 @@ const Index = () => {
       </section>
 
       {/* Why Different */}
-      <section className="py-20 bg-card relative">
+      <section className="py-20 bg-background relative">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center relative">
           <h2 className="text-3xl font-bold text-foreground mb-8">Why Trust The Fox</h2>
           <div className="w-full h-px bg-border mb-8"></div>
@@ -254,8 +295,74 @@ const Index = () => {
         </div>
       </section>
 
+      {/* FAQ Section */}
+      <section className="py-20 bg-muted/30 relative">
+        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 relative">
+          <div className="text-center mb-16">
+            <h2 className="text-3xl font-bold text-foreground mb-4">Questions? We Got You 🤝</h2>
+            <div className="w-24 h-px bg-border mx-auto"></div>
+          </div>
+          
+          <Accordion type="single" collapsible className="space-y-4">
+            <AccordionItem value="item-1" className="bg-background border border-border rounded-lg px-6">
+              <AccordionTrigger className="text-left hover:text-orange-500 transition-colors">
+                Does this actually work or is it just marketing fluff?
+              </AccordionTrigger>
+              <AccordionContent className="text-muted-foreground">
+                It actually works. That's why we let you test it for free with your own phone number. No smoke and mirrors, just give it a try above and see for yourself.
+              </AccordionContent>
+            </AccordionItem>
+
+            <AccordionItem value="item-2" className="bg-background border border-border rounded-lg px-6">
+              <AccordionTrigger className="text-left hover:text-orange-500 transition-colors">
+                How much does it cost? Are you going to bankrupt me?
+              </AccordionTrigger>
+              <AccordionContent className="text-muted-foreground">
+                We're still in early access, so pricing isn't finalized yet. But our goal is to make it way cheaper than hiring human SDRs while being way more effective. Think pennies per call, not dollars.
+              </AccordionContent>
+            </AccordionItem>
+
+            <AccordionItem value="item-3" className="bg-background border border-border rounded-lg px-6">
+              <AccordionTrigger className="text-left hover:text-orange-500 transition-colors">
+                What if people hate getting AI calls?
+              </AccordionTrigger>
+              <AccordionContent className="text-muted-foreground">
+                That's exactly why we built this differently. Most AI call tools sound robotic and pushy. Ours focuses on being genuinely helpful and warm. Try the demo call - you'll see the difference immediately.
+              </AccordionContent>
+            </AccordionItem>
+
+            <AccordionItem value="item-4" className="bg-background border border-border rounded-lg px-6">
+              <AccordionTrigger className="text-left hover:text-orange-500 transition-colors">
+                Can I use my own voice or scripts?
+              </AccordionTrigger>
+              <AccordionContent className="text-muted-foreground">
+                Absolutely! That's the whole point. You upload 5-10 recordings of your best sales calls, and the AI learns your communication style. It's not trying to replace you - it's trying to scale you.
+              </AccordionContent>
+            </AccordionItem>
+
+            <AccordionItem value="item-5" className="bg-background border border-border rounded-lg px-6">
+              <AccordionTrigger className="text-left hover:text-orange-500 transition-colors">
+                How fast can I get started?
+              </AccordionTrigger>
+              <AccordionContent className="text-muted-foreground">
+                Most founders get their first campaigns running in under 12 minutes. Upload your leads, add a few sample calls, set your daily limits, and you're live. No complicated setup or training required.
+              </AccordionContent>
+            </AccordionItem>
+
+            <AccordionItem value="item-6" className="bg-background border border-border rounded-lg px-6">
+              <AccordionTrigger className="text-left hover:text-orange-500 transition-colors">
+                What if I don't have any leads yet?
+              </AccordionTrigger>
+              <AccordionContent className="text-muted-foreground">
+                No worries! We can help you get started with lead generation too. Many of our founders start with our lead sourcing recommendations and build from there.
+              </AccordionContent>
+            </AccordionItem>
+          </Accordion>
+        </div>
+      </section>
+
       {/* Final CTA */}
-      <section className="py-20 fox-dark-gradient">
+      <section className="py-20 bg-gradient-to-b from-background to-muted/20">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-3xl font-bold text-foreground mb-4">Test the Call. See for Yourself.</h2>
           <p className="text-xl text-muted-foreground mb-8">Put in your number, hear what the fox sounds like.</p>
