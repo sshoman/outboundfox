@@ -77,7 +77,7 @@ const Index = () => {
       <section className="relative py-24 fox-dark-gradient">
         <div className="relative max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center z-20">
           <h2 className="text-5xl md:text-6xl font-bold text-foreground mb-6 animate-fade-in">
-            Warm Cold Leads With <span className="text-orange-500">Heartwarming</span> Ai Calls
+            Warm Leads With <span className="text-orange-500">Heartwarming AI</span> Cold Calls
           </h2>
           <p className="text-xl text-muted-foreground mb-12 max-w-3xl mx-auto animate-fade-in">
             Most call agents actually do more harm than good to your brand.
@@ -249,7 +249,7 @@ const Index = () => {
             <p><strong className="text-foreground">Not just voicemail drops.</strong></p>
             <p><strong className="text-foreground">Not just transcripts.</strong></p>
             <p><strong className="text-foreground">Nothing that feels aggressive.</strong></p>
-            <p className="text-xl font-semibold text-orange-500"><strong>Outboundfox find ways to make leads feel WARM towards your brand</strong></p>
+            <p className="text-xl font-semibold text-orange-500"><strong>It find ways to make leads feel WARM towards your brand</strong></p>
           </div>
         </div>
       </section>
@@ -298,7 +298,7 @@ const Index = () => {
             </div>
             <span className="font-semibold text-foreground">Outbound Fox</span>
           </div>
-          <p className="text-muted-foreground">Powered by a team that cares 🧡.</p>
+          <p className="text-muted-foreground">Built in Florida ☀️ by a team that Cares 🧡.</p>
           <p className="text-muted-foreground">&copy; 2025 Outbound Fox.</p>
         </div>
       </footer>
