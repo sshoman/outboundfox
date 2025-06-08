@@ -77,7 +77,7 @@ const Index = () => {
       <section className="relative py-24 fox-dark-gradient">
         <div className="relative max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center z-20">
           <h2 className="text-5xl md:text-6xl font-bold text-foreground mb-6 animate-fade-in">
-            Warm Leads With <span className="text-orange-500">Heartwarming AI</span> Cold Calls
+            Warm People Towards Your Business With <span className="text-orange-500">Heartwarming</span> AI Calls
           </h2>
           <p className="text-xl text-muted-foreground mb-12 max-w-3xl mx-auto animate-fade-in">
             Most call agents actually do more harm than good to your brand.
