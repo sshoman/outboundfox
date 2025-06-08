@@ -66,7 +66,7 @@ const Index = () => {
                 Sign In
               </Button>
               <Button className="fox-gradient text-white hover:opacity-90">
-                Get Started
+                Early Access
               </Button>
             </div>
           </div>
