@@ -37,8 +37,8 @@
 
     --radius: 0.5rem;
 
-    --fox-orange: 20 100% 50%;
-    --fox-orange-dark: 16 85% 45%;
+    --fox-orange: 22 100% 55%;
+    --fox-orange-dark: 18 85% 50%;
     --fox-orange-light: 25 95% 65%;
     --fox-black: 0 0% 9%;
     --fox-cream: 28 100% 96%;
@@ -94,19 +94,6 @@
     background: linear-gradient(135deg, hsl(var(--fox-cream)) 0%, hsl(var(--fox-orange-light)) 50%, hsl(var(--fox-orange)) 100%);
   }
   
-  .walking-fox {
-    animation: walkAcross 20s linear infinite;
-  }
-  
-  @keyframes walkAcross {
-    0% {
-      transform: translateX(-100px);
-    }
-    100% {
-      transform: translateX(calc(100vw + 100px));
-    }
-  }
-  
   .float-animation {
     animation: float 6s ease-in-out infinite;
   }
@@ -117,19 +104,6 @@
     }
     50% {
       transform: translateY(-20px);
-    }
-  }
-  
-  .pulse-glow {
-    animation: pulseGlow 2s ease-in-out infinite;
-  }
-  
-  @keyframes pulseGlow {
-    0%, 100% {
-      box-shadow: 0 0 20px hsl(var(--fox-orange) / 0.3);
-    }
-    50% {
-      box-shadow: 0 0 40px hsl(var(--fox-orange) / 0.6);
     }
   }
 }
