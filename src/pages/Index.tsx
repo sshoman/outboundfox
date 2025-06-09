@@ -80,7 +80,7 @@ const Index = () => {
             Warm Leads With <span className="text-orange-500">Heartwarming</span> Ai Calls.
           </h2>
           <p className="text-xl text-muted-foreground mb-12 max-w-3xl mx-auto animate-fade-in">
-            Cold leads should not be sold to, but warmed with lovely gestures that turns them warm towards your business.
+            Cold leads should not be sold to, but warmed with lovely gestures that makes them feel warm toward your business.
           </p>
 
           {/* Demo Call CTA */}
