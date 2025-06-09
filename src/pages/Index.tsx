@@ -208,7 +208,7 @@ const Index = () => {
                 <Users className="w-8 h-8 text-orange-500 mr-2" />
                 <span className="text-3xl font-bold text-foreground">2,847</span>
               </div>
-              <p className="text-muted-foreground">Sign Ups</p>
+              <p className="text-muted-foreground">Waitlist</p>
             </div>
             
             <div className="text-center">
