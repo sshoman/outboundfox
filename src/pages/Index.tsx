@@ -329,6 +329,7 @@ const Index = () => {
               </AccordionTrigger>
               <AccordionContent className="text-muted-foreground">
                 That's exactly why we built this. Most AI call make leads colder not warmer (if not destroy them completely). Ours focuses on being genuinely human.
+              </AccordionContent>
             </AccordionItem>
 
             <AccordionItem value="item-4" className="bg-background border border-border rounded-lg px-6">
