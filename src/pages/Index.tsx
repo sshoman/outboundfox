@@ -77,10 +77,10 @@ const Index = () => {
       <section className="relative py-24 bg-gradient-to-b from-background to-muted/20">
         <div className="relative max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center z-20">
           <h2 className="text-5xl md:text-6xl font-bold text-foreground mb-6 animate-fade-in">
-            Warm <span className="line-through decoration-2 decoration-red-500">Leads</span> People With <span className="text-orange-500">Heartwarming</span> <span className="line-through decoration-2 decoration-red-500">Cold Calls</span> Gestures.
+            Warm Leads With <span className="text-orange-500">Heartwarming</span> Ai Calls.
           </h2>
           <p className="text-xl text-muted-foreground mb-12 max-w-3xl mx-auto animate-fade-in">
-            Ai call agents actually do more harm than good; this one is built different from the grounds up.
+            Cold leads should not be sold to, but warmed with lovely gestures that turns them warm towards your business.
           </p>
 
           {/* Demo Call CTA */}
