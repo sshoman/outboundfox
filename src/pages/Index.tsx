@@ -114,6 +114,7 @@ const Index = () => {
             
             <p className="text-sm text-muted-foreground mt-4">~10 seconds, no spam, just a quick real-time call by our Ai to see it in action.</p>
           </div>
+        </div>
       </section>
 
       {/* How It Works - Section 2 with Video */}
