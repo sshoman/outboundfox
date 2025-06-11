@@ -235,7 +235,7 @@ const Index = () => {
                 <Star key={i} className="w-6 h-6 text-orange-500 fill-current" />
               ))}
             </div>
-            <p className="text-lg text-muted-foreground italic">"I am not a fan of robocalls at all but setting up calls to everyone old buyers, That's a wicked way to reengage them""</p>
+            <p className="text-lg text-muted-foreground italic">"I am not a fan of robocalls at all but setting up calls to old customers, That's a wicked way to reengage them""</p>
             <p className="text-sm text-muted-foreground mt-2">- Sarah Ashour, SmartR</p>
           </div>
         </div>
