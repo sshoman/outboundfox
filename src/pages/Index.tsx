@@ -85,13 +85,13 @@ const Index = () => {
             Heartfelt AI Calls That <span className="text-orange-500">Melt the Coldest Leads</span>
           </h2>
           <p className="text-xl text-muted-foreground mb-12 max-w-3xl mx-auto animate-fade-in">
-            Cold leads should not be aggressively sold to, but warmed with human gestures that makes them feel good towards your business.
+            Finding creative methods to warm people toward your business without being aggressive.
           </p>
 
           {/* Demo Call CTA */}
           <div className="bg-card rounded-2xl shadow-2xl p-8 max-w-md mx-auto mb-12 float-animation border border-border">
             <h3 className="text-2xl font-bold text-foreground mb-4">See It Work—Right Now</h3>
-            <p className="text-muted-foreground mb-6">Put in your number, hear what the fox sounds like (US & EU):</p>
+            <p className="text-muted-foreground mb-6">Put in your number, hear how the fox sounds like (US & EU):</p>
             
             <div className="space-y-4">
               <Input 
@@ -114,11 +114,6 @@ const Index = () => {
             
             <p className="text-sm text-muted-foreground mt-4">~10 seconds, no spam, just a quick real-time call by our Ai to see it in action.</p>
           </div>
-
-          <div className="text-center">
-            <p className="text-lg font-medium text-foreground mb-4">"Maybe Ai call agents do not suck afterall."</p>
-          </div>
-        </div>
       </section>
 
       {/* How It Works - Section 2 with Video */}
@@ -152,13 +147,13 @@ const Index = () => {
             <div className="text-center p-4 rounded-xl hover:bg-card transition-colors border border-border/50">
               <div className="w-12 h-12 fox-gradient text-white rounded-full flex items-center justify-center font-bold text-lg mx-auto mb-3">2</div>
               <h3 className="text-lg font-semibold text-foreground mb-2">Upload 5-10 Calls Your Best Salesman Did</h3>
-              <p className="text-muted-foreground text-sm">So it learns how you you like to communicate with your leads</p>
+              <p className="text-muted-foreground text-sm">If not available, you can use the vanilla module which is trained on 100s of sales calls in your industry</p>
             </div>
             
             <div className="text-center p-4 rounded-xl hover:bg-card transition-colors border border-border/50">
               <div className="w-12 h-12 fox-gradient text-white rounded-full flex items-center justify-center font-bold text-lg mx-auto mb-3">3</div>
               <h3 className="text-lg font-semibold text-foreground mb-2">Add A Limit To Daily Calls</h3>
-              <p className="text-muted-foreground text-sm">Add a limit to how many calls the agent makes each day & it's all done</p>
+              <p className="text-muted-foreground text-sm">Add a limit to how many calls the agent makes each day</p>
             </div>
           </div>
         </div>
@@ -184,7 +179,7 @@ const Index = () => {
               <div className="w-16 h-16 bg-orange-500/10 rounded-full flex items-center justify-center mx-auto mb-4 group-hover:bg-orange-500/20 transition-colors border border-orange-500/20">
                 <TrendingUp className="w-8 h-8 text-orange-500" />
               </div>
-              <h3 className="font-semibold text-foreground mb-2">Learn which scripts convert (and why)</h3>
+              <h3 className="font-semibold text-foreground mb-2">Lean which hacks click with your customers (and why)</h3>
             </div>
             
             <div className="text-center group hover:scale-105 transition-transform duration-200">
@@ -198,7 +193,7 @@ const Index = () => {
               <div className="w-16 h-16 bg-orange-500/10 rounded-full flex items-center justify-center mx-auto mb-4 group-hover:bg-orange-500/20 transition-colors border border-orange-500/20">
                 <Mail className="w-8 h-8 text-orange-500" />
               </div>
-              <h3 className="font-semibold text-foreground mb-2">Strengthen brand value while maximizing the bottom line</h3>
+              <h3 className="font-semibold text-foreground mb-2">Genuine AI voice calls that people feel good about</h3>
             </div>
           </div>
         </div>
@@ -239,7 +234,7 @@ const Index = () => {
                 <Star key={i} className="w-6 h-6 text-orange-500 fill-current" />
               ))}
             </div>
-            <p className="text-lg text-muted-foreground italic">"I am not a fan of robocalls at all but outbound calling to old contacts, That's a wicked way to reengage them""</p>
+            <p className="text-lg text-muted-foreground italic">"I am not a fan of robocalls at all but setting up calls to everyone old buyers, That's a wicked way to reengage them""</p>
             <p className="text-sm text-muted-foreground mt-2">- Sarah Ashour, SmartR</p>
           </div>
         </div>
@@ -257,28 +252,28 @@ const Index = () => {
             <div className="flex items-start space-x-4 p-4 rounded-lg hover:bg-card transition-colors border border-border/50">
               <Phone className="w-6 h-6 text-orange-500 mt-1 flex-shrink-0" />
               <div>
-                <h3 className="font-semibold text-foreground">Warm cold leads on autopilot with a human touch (automated, yet personal)</h3>
+                <h3 className="font-semibold text-foreground">Warm cold leads on autopilot with a human touch</h3>
               </div>
             </div>
             
             <div className="flex items-start space-x-4 p-4 rounded-lg hover:bg-card transition-colors border border-border/50">
               <TrendingUp className="w-6 h-6 text-orange-500 mt-1 flex-shrink-0" />
               <div>
-                <h3 className="font-semibold text-foreground">Self-improving scripts that evolve over time</h3>
+                <h3 className="font-semibold text-foreground">Self-improving agent that evolves over time</h3>
               </div>
             </div>
             
             <div className="flex items-start space-x-4 p-4 rounded-lg hover:bg-card transition-colors border border-border/50">
               <Mail className="w-6 h-6 text-orange-500 mt-1 flex-shrink-0" />
               <div>
-                <h3 className="font-semibold text-foreground">Better targeting on your niche with time</h3>
+                <h3 className="font-semibold text-foreground">Better targeting on your niche with each additional call</h3>
               </div>
             </div>
             
             <div className="flex items-start space-x-4 p-4 rounded-lg hover:bg-card transition-colors border border-border/50">
               <CheckCircle className="w-6 h-6 text-orange-500 mt-1 flex-shrink-0" />
               <div>
-                <h3 className="font-semibold text-foreground">Genuine AI voice calls that people don't hate</h3>
+                <h3 className="font-semibold text-foreground">Maintain brand value while maximizing the bottom line</h3>
               </div>
             </div>
           </div>
@@ -303,26 +298,26 @@ const Index = () => {
       <section className="py-20 bg-muted/30 relative">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 relative">
           <div className="text-center mb-16">
-            <h2 className="text-3xl font-bold text-foreground mb-4">FAQ ⁉️ </h2>
+            <h2 className="text-3xl font-bold text-foreground mb-4">FAQ</h2>
             <div className="w-24 h-px bg-border mx-auto"></div>
           </div>
           
           <Accordion type="single" collapsible className="space-y-4">
             <AccordionItem value="item-1" className="bg-background border border-border rounded-lg px-6">
               <AccordionTrigger className="text-left hover:text-orange-500 transition-colors">
-                Does this actually work?
+                How does it sound like?
               </AccordionTrigger>
               <AccordionContent className="text-muted-foreground">
-                It does work. That's why we let you test it for free with your own phone number. No smoke and mirrors, just give it a try above and see for yourself.
+                You can test it for free with your own phone number. Try it, it's much better than you think.
               </AccordionContent>
             </AccordionItem>
 
             <AccordionItem value="item-2" className="bg-background border border-border rounded-lg px-6">
               <AccordionTrigger className="text-left hover:text-orange-500 transition-colors">
-                How much does it cost? Are you going to bankrupt me?
+                How much does it cost?
               </AccordionTrigger>
               <AccordionContent className="text-muted-foreground">
-                We're still in early access. But we already are able to cut costs down to offer lowest prices for Ai cold calls worldwide. No more than $0.1 per min. Pennies not dollars.
+                We're still in early access. But we already are able to cut costs down to offer lowest prices for Ai cold calls worldwide. Pennies not dollars, no more than $0.1 per min.
               </AccordionContent>
             </AccordionItem>
 
@@ -331,7 +326,7 @@ const Index = () => {
                 What if people hate getting AI calls?
               </AccordionTrigger>
               <AccordionContent className="text-muted-foreground">
-                That's exactly why we built this. Most AI call make leads colder not warmer (if not destroy them completely). Ours focuses on being genuinely human.
+                That's exactly why we built this. AI calls make leads colder not warmer (if not destroy them completely).
               </AccordionContent>
             </AccordionItem>
 
@@ -340,7 +335,7 @@ const Index = () => {
                 Can I use my own voice or scripts?
               </AccordionTrigger>
               <AccordionContent className="text-muted-foreground">
-                Absolutely! That's the whole point. You upload 5-10 recordings of your best sales calls, and the AI learns your communication style. It's not trying to replace you, it's trying to scale you.
+                Absolutely! That's the whole point. You upload 5-10 recordings or your best sales script, and the AI learns your communication style. It's not trying to replace you, it's trying to scale you.
               </AccordionContent>
             </AccordionItem>
 
@@ -349,7 +344,7 @@ const Index = () => {
                 How fast can I get started?
               </AccordionTrigger>
               <AccordionContent className="text-muted-foreground">
-                Most founders get their first campaigns running in under 10 minutes. Upload your leads, add a few sample calls, set your daily limits, and you're live. No complicated setup or training required.
+                Most founders get their first campaigns running in under 10 minutes. Upload your leads, add a few audio files if you have them, set your daily limits, and you're live. No complicated setup or training required.
               </AccordionContent>
             </AccordionItem>
 
@@ -358,7 +353,7 @@ const Index = () => {
                 What if I don't have any leads yet?
               </AccordionTrigger>
               <AccordionContent className="text-muted-foreground">
-                No worries! We can help you get started with lead generation too. Many of our founders start with our lead sourcing recommendations and build from there.
+                No worries! We can help you get started with a couple of hundred for free.
               </AccordionContent>
             </AccordionItem>
           </Accordion>
@@ -369,7 +364,7 @@ const Index = () => {
       <section className="py-20 bg-gradient-to-b from-background to-muted/20">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-3xl font-bold text-foreground mb-4">Test the Call. See for Yourself.</h2>
-          <p className="text-xl text-muted-foreground mb-8">Put in your number, hear what the fox sounds like (US & EU).</p>
+          <p className="text-xl text-muted-foreground mb-8">Put in your number, hear how the fox sounds like (US & EU).</p>
           
           <div className="bg-card rounded-2xl shadow-xl p-8 max-w-md mx-auto border border-border">
             <div className="space-y-4">
@@ -407,7 +402,7 @@ const Index = () => {
             />
             <span className="font-semibold text-foreground">Outbound Fox</span>
           </div>
-          <p className="text-muted-foreground">Built in Florida ☀️ by a team that Cares 🧡.</p>
+          <p className="text-muted-foreground">Built in Florida ☀️ by a team that Cares.</p>
           <p className="text-muted-foreground">&copy; 2025 Outbound Fox.</p>
         </div>
       </footer>
