@@ -62,8 +62,8 @@ const Index = () => {
             {/* Right side: Buttons */}
             <div className="space-x-4">
               <Button asChild variant="ghost" className="text-muted-foreground hover:text-foreground">
-                <a href="https://call.outboundfox.com/" target="_blank" rel="noopener noreferrer">
-                  Sign In
+                <a href="https://cal.com/shoman/" target="_blank" rel="noopener noreferrer">
+                  Demo
                 </a>
               </Button>
 
@@ -81,7 +81,7 @@ const Index = () => {
       <section className="relative py-24 bg-gradient-to-b from-background to-muted/20">
         <div className="relative max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center z-20">
           <h2 className="text-5xl md:text-6xl font-bold text-foreground mb-6 animate-fade-in">
-            Heartfelt AI Calls That <span className="text-orange-500">Melt the Coldest Leads</span>
+            Heartfelt AI Cold Calls That <span className="text-orange-500">Melts</span> Leads With Genuinity
           </h2>
           <p className="text-xl text-muted-foreground mb-12 max-w-3xl mx-auto animate-fade-in">
             Creative gestures to warm people towards your business without ruining the brand.
@@ -111,7 +111,7 @@ const Index = () => {
               </Button>
             </div>
             
-            <p className="text-sm text-muted-foreground mt-4">~10 seconds, no spam, just a quick real-time call by our Ai to see it in action.</p>
+            <p className="text-sm text-muted-foreground mt-4">~10 seconds, no spam, just a quick call by our Ai to see it in action.</p>
           </div>
         </div>
       </section>
@@ -173,14 +173,14 @@ const Index = () => {
               <div className="w-16 h-16 bg-orange-500/10 rounded-full flex items-center justify-center mx-auto mb-4 group-hover:bg-orange-500/20 transition-colors border border-orange-500/20">
                 <Calendar className="w-8 h-8 text-orange-500" />
               </div>
-              <h3 className="font-semibold text-foreground mb-2">Book meetings on autopilot without destroying the brand</h3>
+              <h3 className="font-semibold text-foreground mb-2">Warm cold leads on autopilot without being aggressive</h3>
             </div>
             
             <div className="text-center group hover:scale-105 transition-transform duration-200">
               <div className="w-16 h-16 bg-orange-500/10 rounded-full flex items-center justify-center mx-auto mb-4 group-hover:bg-orange-500/20 transition-colors border border-orange-500/20">
                 <TrendingUp className="w-8 h-8 text-orange-500" />
               </div>
-              <h3 className="font-semibold text-foreground mb-2">Lean which hacks click with your customers (and why)</h3>
+              <h3 className="font-semibold text-foreground mb-2">Lean what clicks with your customers (and why)</h3>
             </div>
             
             <div className="text-center group hover:scale-105 transition-transform duration-200">
@@ -194,7 +194,7 @@ const Index = () => {
               <div className="w-16 h-16 bg-orange-500/10 rounded-full flex items-center justify-center mx-auto mb-4 group-hover:bg-orange-500/20 transition-colors border border-orange-500/20">
                 <Mail className="w-8 h-8 text-orange-500" />
               </div>
-              <h3 className="font-semibold text-foreground mb-2">Genuine AI voice calls that people feel good about</h3>
+              <h3 className="font-semibold text-foreground mb-2">Genuine AI voice calls that people do not hate</h3>
             </div>
           </div>
         </div>
@@ -253,14 +253,14 @@ const Index = () => {
             <div className="flex items-start space-x-4 p-4 rounded-lg hover:bg-card transition-colors border border-border/50">
               <Phone className="w-6 h-6 text-orange-500 mt-1 flex-shrink-0" />
               <div>
-                <h3 className="font-semibold text-foreground">Warm cold leads on autopilot with a human touch</h3>
+                <h3 className="font-semibold text-foreground">Book meetings on autopilot without destroying the brand</h3>
               </div>
             </div>
             
             <div className="flex items-start space-x-4 p-4 rounded-lg hover:bg-card transition-colors border border-border/50">
               <TrendingUp className="w-6 h-6 text-orange-500 mt-1 flex-shrink-0" />
               <div>
-                <h3 className="font-semibold text-foreground">Self-improving agent that evolves over time</h3>
+                <h3 className="font-semibold text-foreground">Self-improving sales agent that evolves fast & scales cheaply</h3>
               </div>
             </div>
             
@@ -274,7 +274,7 @@ const Index = () => {
             <div className="flex items-start space-x-4 p-4 rounded-lg hover:bg-card transition-colors border border-border/50">
               <CheckCircle className="w-6 h-6 text-orange-500 mt-1 flex-shrink-0" />
               <div>
-                <h3 className="font-semibold text-foreground">Maintain brand value while maximizing the bottom line</h3>
+                <h3 className="font-semibold text-foreground">Strengthen brand value while maximizing the bottom line</h3>
               </div>
             </div>
           </div>
