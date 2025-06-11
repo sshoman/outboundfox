@@ -59,14 +59,19 @@ const Index = () => {
                 <h1 className="text-xl font-bold text-foreground">Outbound Fox</h1>
               </div>
             </div>
-            <div className="space-x-4">
-              <Button variant="ghost" className="text-muted-foreground hover:text-foreground">
-                Sign In
-              </Button>
-              <Button className="fox-gradient text-white hover:opacity-90">
-                Early Access
-              </Button>
-            </div>
+          </div>
+<div className="space-x-4">
+  <a href="https://call.outboundfox.com/" target="_blank" rel="noopener noreferrer">
+    <Button variant="ghost" className="text-muted-foreground hover:text-foreground">
+      Sign In
+    </Button>
+  </a>
+  <a href="https://call.outboundfox.com/" target="_blank" rel="noopener noreferrer">
+    <Button className="fox-gradient text-white hover:opacity-90">
+      Early Access
+    </Button>
+  </a>
+</div>
           </div>
         </div>
       </nav>
@@ -78,7 +83,7 @@ const Index = () => {
             Warm Leads With <span className="text-orange-500">Heartwarming</span> Ai Calls.
           </h2>
           <p className="text-xl text-muted-foreground mb-12 max-w-3xl mx-auto animate-fade-in">
-            Cold leads should not be sold to, but warmed with lovely gestures that makes them feel warm toward your business.
+            Cold leads should not be aggressively sold to, but warmed with human gestures that makes them feel good towards your brand.
           </p>
 
           {/* Demo Call CTA */}
