@@ -147,7 +147,7 @@ const Index = () => {
             
             <div className="text-center p-4 rounded-xl hover:bg-card transition-colors border border-border/50">
               <div className="w-12 h-12 fox-gradient text-white rounded-full flex items-center justify-center font-bold text-lg mx-auto mb-3">2</div>
-              <h3 className="text-lg font-semibold text-foreground mb-2">Upload 5-10 Calls Your Best Salesman Did</h3>
+              <h3 className="text-lg font-semibold text-foreground mb-2">Upload 10-20 Calls Your Best Salesman Did</h3>
               <p className="text-muted-foreground text-sm">If not available, you can use the vanilla module which is trained on 100s of sales calls in your industry</p>
             </div>
             
@@ -180,7 +180,7 @@ const Index = () => {
               <div className="w-16 h-16 bg-orange-500/10 rounded-full flex items-center justify-center mx-auto mb-4 group-hover:bg-orange-500/20 transition-colors border border-orange-500/20">
                 <TrendingUp className="w-8 h-8 text-orange-500" />
               </div>
-              <h3 className="font-semibold text-foreground mb-2">Lean what clicks with your customers (and why)</h3>
+              <h3 className="font-semibold text-foreground mb-2">Learn what clicks with your customers (and why)</h3>
             </div>
             
             <div className="text-center group hover:scale-105 transition-transform duration-200">
