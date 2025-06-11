@@ -127,14 +127,14 @@ const Index = () => {
           {/* Video Embed */}
           <div className="mb-16">
             <div className="aspect-video rounded-2xl overflow-hidden shadow-2xl bg-card border border-border">
-              <iframe
-                src="https://www.youtube.com/embed/lVNzmMMDsgU?controls=0&modestbranding=1&mute=1&autoplay=0&rel=0"
-                title=""
-                className="w-full h-full"
-                frameBorder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowFullScreen
-              ></iframe>
+  <iframe
+  src="https://www.youtube.com/embed/lVNzmMMDsgU?autoplay=1&mute=0&controls=0&modestbranding=1&rel=0&showinfo=0"
+  title=""
+  className="w-full h-full"
+  frameBorder="0"
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+  allowFullScreen
+></iframe>
             </div>
           </div>
           
