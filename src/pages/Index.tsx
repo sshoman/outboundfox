@@ -1,3 +1,4 @@
+
 import React, { useState } from 'react';
 import { Phone, Calendar, TrendingUp, Mail, Clock, CheckCircle, Star, Users, Zap } from 'lucide-react';
 import { Button } from '@/components/ui/button';
@@ -43,42 +44,39 @@ const Index = () => {
     }, 1000);
   };
 
-return (
-  <div className="min-h-screen bg-background">
-    {/* Navigation */}
-    <nav className="bg-background/95 backdrop-blur-sm border-b border-border sticky top-0 z-50">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex justify-between items-center py-4">
-          {/* Left side: Logo */}
-          <div className="flex items-center space-x-3">
-            <img 
-              src="/lovable-uploads/ffa8f6c1-ed52-4eeb-94c1-61c421921a95.png" 
-              alt="Outbound Fox Logo" 
-              className="w-10 h-10"
-            />
-            <h1 className="text-xl font-bold text-foreground">Outbound Fox</h1>
-          </div>
+  return (
+    <div className="min-h-screen bg-background">
+      {/* Navigation */}
+      <nav className="bg-background/95 backdrop-blur-sm border-b border-border sticky top-0 z-50">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="flex justify-between items-center py-4">
+            {/* Left side: Logo */}
+            <div className="flex items-center space-x-3">
+              <img 
+                src="/lovable-uploads/ffa8f6c1-ed52-4eeb-94c1-61c421921a95.png" 
+                alt="Outbound Fox Logo" 
+                className="w-10 h-10"
+              />
+              <h1 className="text-xl font-bold text-foreground">Outbound Fox</h1>
+            </div>
 
-          {/* Right side: Buttons */}
-          <div className="space-x-4">
-            <Button asChild variant="ghost" className="text-muted-foreground hover:text-foreground">
-              <a href="https://call.outboundfox.com/" target="_blank" rel="noopener noreferrer">
-                Sign In
-              </a>
-            </Button>
+            {/* Right side: Buttons */}
+            <div className="space-x-4">
+              <Button asChild variant="ghost" className="text-muted-foreground hover:text-foreground">
+                <a href="https://call.outboundfox.com/" target="_blank" rel="noopener noreferrer">
+                  Sign In
+                </a>
+              </Button>
 
-            <Button asChild className="fox-gradient text-white hover:opacity-90">
-              <a href="https://call.outboundfox.com/" target="_blank" rel="noopener noreferrer">
-                Early Access
-              </a>
-            </Button>
+              <Button asChild className="fox-gradient text-white hover:opacity-90">
+                <a href="https://call.outboundfox.com/" target="_blank" rel="noopener noreferrer">
+                  Early Access
+                </a>
+              </Button>
+            </div>
           </div>
         </div>
-      </div>
-    </nav>
-  </div>
-);
-
+      </nav>
 
       {/* Hero Section */}
       <section className="relative py-24 bg-gradient-to-b from-background to-muted/20">
@@ -190,14 +188,14 @@ return (
             </div>
             
             <div className="text-center group hover:scale-105 transition-transform duration-200">
-              <div className="w-16 h-12 rounded-full flex items-center justify-center mx-auto mb-4 group-hover:bg-orange-500/20 transition-colors border border-orange-500/20">
+              <div className="w-16 h-16 bg-orange-500/10 rounded-full flex items-center justify-center mx-auto mb-4 group-hover:bg-orange-500/20 transition-colors border border-orange-500/20">
                 <Clock className="w-8 h-8 text-orange-500" />
               </div>
               <h3 className="font-semibold text-foreground mb-2">Scale cheaply without having to consistantly interview salespeople</h3>
             </div>
             
             <div className="text-center group hover:scale-105 transition-transform duration-200">
-              <div className="w-16 h-12 rounded-full flex items-center justify-center mx-auto mb-4 group-hover:bg-orange-500/20 transition-colors border border-orange-500/20">
+              <div className="w-16 h-16 bg-orange-500/10 rounded-full flex items-center justify-center mx-auto mb-4 group-hover:bg-orange-500/20 transition-colors border border-orange-500/20">
                 <Mail className="w-8 h-8 text-orange-500" />
               </div>
               <h3 className="font-semibold text-foreground mb-2">Strengthen brand value while maximizing the bottom line</h3>
@@ -243,7 +241,6 @@ return (
             </div>
             <p className="text-lg text-muted-foreground italic">"I am not a fan of robocalls at all but outbound calling to customers That's a wicked way to reengage them""</p>
             <p className="text-sm text-muted-foreground mt-2">- Sarah Ashour, SmartR</p>
-            
           </div>
         </div>
       </section>
@@ -284,7 +281,6 @@ return (
                 <h3 className="font-semibold text-foreground">Genuine AI voice calls that people don't hate</h3>
               </div>
             </div>
-            
           </div>
         </div>
       </section>
