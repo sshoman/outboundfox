@@ -81,7 +81,7 @@ const Index = () => {
       <section className="relative py-24 bg-gradient-to-b from-background to-muted/20">
         <div className="relative max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center z-20">
           <h2 className="text-5xl md:text-6xl font-bold text-foreground mb-6 animate-fade-in">
-            Heartfelt AI Cold Calls That <span className="text-orange-500">Melts</span> Leads With Genuinity
+            Genuine AI Cold Calls That <span className="text-orange-500">Melts</span> Leads With <span className="text-orange-500">Heart</span>
           </h2>
           <p className="text-xl text-muted-foreground mb-12 max-w-3xl mx-auto animate-fade-in">
             Creative gestures to warm people towards your business without ruining the brand.
