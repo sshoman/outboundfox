@@ -1,4 +1,3 @@
-
 import React, { useState } from 'react';
 import { Phone, Calendar, TrendingUp, Mail, Clock, CheckCircle, Star, Users, Zap } from 'lucide-react';
 import { Button } from '@/components/ui/button';
@@ -127,14 +126,15 @@ const Index = () => {
           
           {/* Video Embed */}
           <div className="mb-16">
-            <div className="aspect-video rounded-2xl overflow-hidden shadow-2xl bg-card flex items-center justify-center border border-border">
-              <div className="text-center">
-                <div className="w-16 h-16 fox-gradient rounded-full flex items-center justify-center mx-auto mb-4">
-                  <Phone className="w-8 h-8 text-white" />
-                </div>
-                <p className="text-foreground">Video Demo</p>
-                <p className="text-sm text-muted-foreground mt-2">Watch The Fox in action</p>
-              </div>
+            <div className="aspect-video rounded-2xl overflow-hidden shadow-2xl bg-card border border-border">
+              <iframe
+                src="https://www.youtube.com/embed/lVNzmMMDsgU?controls=0&modestbranding=1&mute=1&autoplay=0&rel=0"
+                title="Outbound Fox Demo"
+                className="w-full h-full"
+                frameBorder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowFullScreen
+              ></iframe>
             </div>
           </div>
           
