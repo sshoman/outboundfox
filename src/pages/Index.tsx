@@ -104,7 +104,7 @@ const Index = () => {
             <div className="absolute -inset-4 bg-gradient-to-r from-orange-500/10 to-orange-600/10 rounded-3xl blur-2xl"></div>
             <div className="relative bg-card/80 backdrop-blur-xl rounded-3xl shadow-2xl p-10 max-w-lg mx-auto mb-16 border border-border/50">
               <h3 className="text-3xl font-bold text-foreground mb-6">See It Work—Right Now</h3>
-              <p className="text-muted-foreground mb-8 text-lg">Put in your number, hear what the fox sounds like (US & EU):</p>
+              <p className="text-muted-foreground mb-8 text-lg">Put in your number, hear how the fox sounds like (US & EU):</p>
               
               <div className="space-y-6">
                 <Input 
@@ -125,7 +125,7 @@ const Index = () => {
                 </Button>
               </div>
               
-              <p className="text-muted-foreground mt-6 text-sm">~10 seconds, no spam, just a quick real-time call by our Ai to see it in action.</p>
+              <p className="text-muted-foreground mt-6 text-sm">~10 seconds, no spam, just a quick call by our Ai to see it in action.</p>
             </div>
           </div>
 
@@ -337,7 +337,7 @@ const Index = () => {
       <section className="py-24 bg-gradient-to-br from-background via-muted/10 to-background">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-4xl font-bold text-foreground mb-6">Test the Call. See for Yourself.</h2>
-          <p className="text-2xl text-muted-foreground mb-12">Put in your number, hear what the fox sounds like (US & EU).</p>
+          <p className="text-2xl text-muted-foreground mb-12">Put in your number, hear how the fox sounds like (US & EU).</p>
           
           <div className="relative">
             <div className="absolute -inset-4 bg-gradient-to-r from-orange-500/10 to-orange-600/10 rounded-3xl blur-2xl"></div>
