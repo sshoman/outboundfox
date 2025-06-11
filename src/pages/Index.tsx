@@ -84,7 +84,7 @@ const Index = () => {
             Heartfelt AI Calls That <span className="text-orange-500">Melt the Coldest Leads</span>
           </h2>
           <p className="text-xl text-muted-foreground mb-12 max-w-3xl mx-auto animate-fade-in">
-            Finding creative methods to warm people toward your business without being aggressive.
+            Creative gestures to warm people towards your business without ruining the brand.
           </p>
 
           {/* Demo Call CTA */}
@@ -129,7 +129,7 @@ const Index = () => {
             <div className="aspect-video rounded-2xl overflow-hidden shadow-2xl bg-card border border-border">
               <iframe
                 src="https://www.youtube.com/embed/lVNzmMMDsgU?controls=0&modestbranding=1&mute=1&autoplay=0&rel=0"
-                title="Outbound Fox Demo"
+                title=""
                 className="w-full h-full"
                 frameBorder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
