@@ -90,7 +90,7 @@ const Index = () => {
           {/* Demo Call CTA */}
           <div className="bg-card rounded-2xl shadow-2xl p-8 max-w-md mx-auto mb-12 float-animation border border-border">
             <h3 className="text-2xl font-bold text-foreground mb-4">See It Work—Right Now</h3>
-            <p className="text-muted-foreground mb-6">Put in your number, hear how the fox sounds like (US & EU):</p>
+            <p className="text-muted-foreground mb-6">hear what the fox sounds like yourself (US & EU)</p>
             
             <div className="space-y-4">
               <Input 
@@ -288,7 +288,7 @@ const Index = () => {
           <div className="w-full h-px bg-border mb-8"></div>
           <div className="space-y-4 text-lg text-muted-foreground">
             <p><strong className="text-foreground">Not just voicemail drops.</strong></p>
-            <p><strong className="text-foreground">Not just transcripts.</strong></p>
+            <p><strong className="text-foreground">Not just another Ai voice.</strong></p>
             <p><strong className="text-foreground">Nothing that feels aggressive.</strong></p>
             <p className="text-xl font-semibold text-orange-500"><strong>Creative gestures that make people feel WARM 🤗 towards your brand</strong></p>
           </div>
@@ -365,7 +365,7 @@ const Index = () => {
       <section className="py-20 bg-gradient-to-b from-background to-muted/20">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-3xl font-bold text-foreground mb-4">Test the Call. See for Yourself.</h2>
-          <p className="text-xl text-muted-foreground mb-8">Put in your number, hear how the fox sounds like (US & EU).</p>
+          <p className="text-xl text-muted-foreground mb-8">hear what the fox sounds like yourself (US & EU)</p>
           
           <div className="bg-card rounded-2xl shadow-xl p-8 max-w-md mx-auto border border-border">
             <div className="space-y-4">
