@@ -50,13 +50,11 @@ const Index = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center py-4">
             <div className="flex items-center space-x-3">
-              <div className="w-10 h-10 fox-gradient rounded-lg flex items-center justify-center">
-                <img 
-                  src="/lovable-uploads/6b64530a-b345-4121-8790-d9af0e2f019d.png" 
-                  alt="Outbound Fox Logo" 
-                  className="w-6 h-6 filter brightness-0 invert"
-                />
-              </div>
+              <img 
+                src="/lovable-uploads/ffa8f6c1-ed52-4eeb-94c1-61c421921a95.png" 
+                alt="Outbound Fox Logo" 
+                className="w-10 h-10"
+              />
               <div>
                 <h1 className="text-xl font-bold text-foreground">Outbound Fox</h1>
               </div>
@@ -397,13 +395,11 @@ const Index = () => {
       <footer className="bg-background py-8 border-t border-border">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <div className="flex items-center justify-center space-x-3 mb-4">
-            <div className="w-8 h-8 fox-gradient rounded-lg flex items-center justify-center">
-              <img 
-                src="/lovable-uploads/6b64530a-b345-4121-8790-d9af0e2f019d.png" 
-                alt="Outbound Fox" 
-                className="w-5 h-5 filter brightness-0 invert"
-              />
-            </div>
+            <img 
+              src="/lovable-uploads/ffa8f6c1-ed52-4eeb-94c1-61c421921a95.png" 
+              alt="Outbound Fox" 
+              className="w-8 h-8"
+            />
             <span className="font-semibold text-foreground">Outbound Fox</span>
           </div>
           <p className="text-muted-foreground">Built in Florida ☀️ by a team that Cares 🧡.</p>
