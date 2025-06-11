@@ -43,38 +43,42 @@ const Index = () => {
     }, 1000);
   };
 
-  return (
-    <div className="min-h-screen bg-background">
-      {/* Navigation */}
-      <nav className="bg-background/95 backdrop-blur-sm border-b border-border sticky top-0 z-50">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="flex justify-between items-center py-4">
-            <div className="flex items-center space-x-3">
-              <img 
-                src="/lovable-uploads/ffa8f6c1-ed52-4eeb-94c1-61c421921a95.png" 
-                alt="Outbound Fox Logo" 
-                className="w-10 h-10"
-              />
-              <div>
-                <h1 className="text-xl font-bold text-foreground">Outbound Fox</h1>
-              </div>
-            </div>
+return (
+  <div className="min-h-screen bg-background">
+    {/* Navigation */}
+    <nav className="bg-background/95 backdrop-blur-sm border-b border-border sticky top-0 z-50">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="flex justify-between items-center py-4">
+          {/* Left side: Logo */}
+          <div className="flex items-center space-x-3">
+            <img 
+              src="/lovable-uploads/ffa8f6c1-ed52-4eeb-94c1-61c421921a95.png" 
+              alt="Outbound Fox Logo" 
+              className="w-10 h-10"
+            />
+            <h1 className="text-xl font-bold text-foreground">Outbound Fox</h1>
           </div>
-<div className="space-x-4">
-  <a href="https://call.outboundfox.com/" target="_blank" rel="noopener noreferrer">
-    <Button variant="ghost" className="text-muted-foreground hover:text-foreground">
-      Sign In
-    </Button>
-  </a>
-  <a href="https://call.outboundfox.com/" target="_blank" rel="noopener noreferrer">
-    <Button className="fox-gradient text-white hover:opacity-90">
-      Early Access
-    </Button>
-  </a>
-</div>
+
+          {/* Right side: Buttons */}
+          <div className="space-x-4">
+            <Button asChild variant="ghost" className="text-muted-foreground hover:text-foreground">
+              <a href="https://call.outboundfox.com/" target="_blank" rel="noopener noreferrer">
+                Sign In
+              </a>
+            </Button>
+
+            <Button asChild className="fox-gradient text-white hover:opacity-90">
+              <a href="https://call.outboundfox.com/" target="_blank" rel="noopener noreferrer">
+                Early Access
+              </a>
+            </Button>
           </div>
         </div>
-      </nav>
+      </div>
+    </nav>
+  </div>
+);
+
 
       {/* Hero Section */}
       <section className="relative py-24 bg-gradient-to-b from-background to-muted/20">
@@ -303,7 +307,7 @@ const Index = () => {
       <section className="py-20 bg-muted/30 relative">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 relative">
           <div className="text-center mb-16">
-            <h2 className="text-3xl font-bold text-foreground mb-4">Questions? We Got You 🤝</h2>
+            <h2 className="text-3xl font-bold text-foreground mb-4">FAQ ⁉️ </h2>
             <div className="w-24 h-px bg-border mx-auto"></div>
           </div>
           
