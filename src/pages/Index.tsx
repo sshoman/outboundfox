@@ -82,16 +82,16 @@ const Index = () => {
       <section className="relative py-24 bg-gradient-to-b from-background to-muted/20">
         <div className="relative max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center z-20">
           <h2 className="text-5xl md:text-6xl font-bold text-foreground mb-6 animate-fade-in">
-            Warm Leads With <span className="text-orange-500">Heartwarming</span> Ai Calls.
+            Heartfelt AI Calls That <span className="text-orange-500">Melt the Coldest Leads</span>
           </h2>
           <p className="text-xl text-muted-foreground mb-12 max-w-3xl mx-auto animate-fade-in">
-            Cold leads should not be aggressively sold to, but warmed with human gestures that makes them feel good towards your brand.
+            Cold leads should not be aggressively sold to, but warmed with human gestures that makes them feel good towards your business.
           </p>
 
           {/* Demo Call CTA */}
           <div className="bg-card rounded-2xl shadow-2xl p-8 max-w-md mx-auto mb-12 float-animation border border-border">
             <h3 className="text-2xl font-bold text-foreground mb-4">See It Work—Right Now</h3>
-            <p className="text-muted-foreground mb-6">Enter your number and try it out (US only):</p>
+            <p className="text-muted-foreground mb-6">Put in your number, hear what the fox sounds like (US & EU):</p>
             
             <div className="space-y-4">
               <Input 
@@ -112,7 +112,7 @@ const Index = () => {
               </Button>
             </div>
             
-            <p className="text-sm text-muted-foreground mt-4">~10 seconds, no spam, just a quick real-time call to see it in action.</p>
+            <p className="text-sm text-muted-foreground mt-4">~10 seconds, no spam, just a quick real-time call by our Ai to see it in action.</p>
           </div>
 
           <div className="text-center">
@@ -151,13 +151,13 @@ const Index = () => {
             
             <div className="text-center p-4 rounded-xl hover:bg-card transition-colors border border-border/50">
               <div className="w-12 h-12 fox-gradient text-white rounded-full flex items-center justify-center font-bold text-lg mx-auto mb-3">2</div>
-              <h3 className="text-lg font-semibold text-foreground mb-2">Upload 5-10 Sales Calls Your Best Salesperson Made</h3>
+              <h3 className="text-lg font-semibold text-foreground mb-2">Upload 5-10 Calls Your Best Salesman Did</h3>
               <p className="text-muted-foreground text-sm">So it learns how you you like to communicate with your leads</p>
             </div>
             
             <div className="text-center p-4 rounded-xl hover:bg-card transition-colors border border-border/50">
               <div className="w-12 h-12 fox-gradient text-white rounded-full flex items-center justify-center font-bold text-lg mx-auto mb-3">3</div>
-              <h3 className="text-lg font-semibold text-foreground mb-2">Go Live</h3>
+              <h3 className="text-lg font-semibold text-foreground mb-2">Add A Limit To Daily Calls</h3>
               <p className="text-muted-foreground text-sm">Add a limit to how many calls the agent makes each day & it's all done</p>
             </div>
           </div>
@@ -213,7 +213,7 @@ const Index = () => {
                 <Users className="w-8 h-8 text-orange-500 mr-2" />
                 <span className="text-3xl font-bold text-foreground">2,847</span>
               </div>
-              <p className="text-muted-foreground">Waitlist</p>
+              <p className="text-muted-foreground">On The Waitlist</p>
             </div>
             
             <div className="text-center">
@@ -239,7 +239,7 @@ const Index = () => {
                 <Star key={i} className="w-6 h-6 text-orange-500 fill-current" />
               ))}
             </div>
-            <p className="text-lg text-muted-foreground italic">"I am not a fan of robocalls at all but outbound calling to customers That's a wicked way to reengage them""</p>
+            <p className="text-lg text-muted-foreground italic">"I am not a fan of robocalls at all but outbound calling to old contacts, That's a wicked way to reengage them""</p>
             <p className="text-sm text-muted-foreground mt-2">- Sarah Ashour, SmartR</p>
           </div>
         </div>
@@ -257,7 +257,7 @@ const Index = () => {
             <div className="flex items-start space-x-4 p-4 rounded-lg hover:bg-card transition-colors border border-border/50">
               <Phone className="w-6 h-6 text-orange-500 mt-1 flex-shrink-0" />
               <div>
-                <h3 className="font-semibold text-foreground">Timely gestures that makes cold leads feel good about your outreach</h3>
+                <h3 className="font-semibold text-foreground">Warm cold leads on autopilot with a human touch (automated, yet personal)</h3>
               </div>
             </div>
             
@@ -369,7 +369,7 @@ const Index = () => {
       <section className="py-20 bg-gradient-to-b from-background to-muted/20">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-3xl font-bold text-foreground mb-4">Test the Call. See for Yourself.</h2>
-          <p className="text-xl text-muted-foreground mb-8">Put in your number, hear what the fox sounds like.</p>
+          <p className="text-xl text-muted-foreground mb-8">Put in your number, hear what the fox sounds like (US & EU).</p>
           
           <div className="bg-card rounded-2xl shadow-xl p-8 max-w-md mx-auto border border-border">
             <div className="space-y-4">
