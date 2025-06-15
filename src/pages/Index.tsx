@@ -68,8 +68,8 @@ const Index = () => {
               </Button>
 
               <Button asChild className="fox-gradient text-white hover:opacity-90">
-                <a href="https://call.outboundfox.com/" target="_blank" rel="noopener noreferrer">
-                  Early Access
+                <a href="https://form.typeform.com/to/XGlhznTu" target="_blank" rel="noopener noreferrer">
+                  Waitlist
                 </a>
               </Button>
             </div>
